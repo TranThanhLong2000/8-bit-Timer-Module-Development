@@ -1,15 +1,17 @@
 how to use makefile in this environment:
-	initiate project:
-		make init
-	compile all sources and testbenches:
+
+	-initiate project:
+               make init
+	-compile all sources and testbenches:
 		make compile
-	simulation:
+	-simulation:
 		make simulation
-	clean all outputs:
+	-clean all outputs:
 		make clean
 
 
 how to run modelsim/questasim in command line:
+
 	- create work lib:
 		vlib work
 	- delete work lib:
